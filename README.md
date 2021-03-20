@@ -1,4 +1,4 @@
->n NOTE :   This  Multi-node Cluster Setup Role
+#  Multi-node Cluster Setup Role
 
 Hi Guys
 </br>
