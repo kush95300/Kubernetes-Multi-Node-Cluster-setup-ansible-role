@@ -1,6 +1,7 @@
-# Kubernetes Multi-node Cluster Setup Role
+>n NOTE :   This  Multi-node Cluster Setup Role
 
-Hi Guys,
+Hi Guys
+</br>
 I have created this repository to setup kubernetes cluster over aws in a few minutes. So, use this role. This is created for educational and learning purpose. You can find roles at ansible-galaxy also.
 
 # Quick Reference
@@ -10,10 +11,14 @@ Detailed instruction setup : <b> updating soon... </b>
 # Supported Parameters
 
 Following parameters are there : 
-| Parameter | use | setup-location |
+
+|  Parameter | use  | setup-location  |
+| ------------ | ------------ | ------------ |
+| 1  | a  |  c |
+|   2| b  | c  |
 
 
-# Ansible-galaxy 
+# Ansible-galaxy
 <b>Roles available at :
 <b>
 - Aws_instance_launcher : link 
@@ -21,10 +26,11 @@ Following parameters are there :
 - Kubernetes_slave_setup : link </b>
 
 ##Download Role  using command :
-| Role | Command |
-| Aws_instance_launcher | xxx |
-| Kubernetes_master_setup | xxx |
-| Kubernetes_slave_setup | xxx |
+| **ROLES**  | **COMMAND**   |
+| ------------ | ------------ |
+| Aws_instance_launcher  | xxx  |
+| Kubernetes_master_setup  | xxx  |
+|  Kubernetes_slave_setup | xxx  |
 
 # Examples
 
@@ -44,4 +50,7 @@ Linkedin : https://www.linkedin.com/in/kaushal-soni-988650146/
 Github : https://github.com/kush95300 </b>
 
 
->> NOTE :   This Repository contains three roles.
+<br>
+
+
+>> NOTE :   This Repository contains three roles.epository contains three roles.
