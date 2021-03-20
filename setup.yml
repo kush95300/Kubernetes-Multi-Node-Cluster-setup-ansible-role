@@ -1,0 +1,34 @@
+---
+- hosts: localhost
+  roles:
+          - name: "Creating Master instance"
+            role: aws_instance_launcher
+            vars:
+                    i_name: kk_master
+                    access_pass: AKIYYLPPOFNCRT2W
+                    secret_pass: e33HrqVMMTsS53RxbXjbIerUjXj
+                    grp_tag: kk_master
+                    tag: master
+          - name: "Creating Slave instance"
+            role: aws_instance_launcher
+            vars:
+                    i_name: kk_slave
+                    access_pass: AKIAPOFNCRT2W
+                    secret_pass: e334rqVMMTsS53RxbXjbIerUjXj
+                    grp_tag: kk_slave
+                    tag: slave
+
+- hosts: kk_master
+  become: yes
+  become_method: sudo
+  become_user: root
+  roles:
+          - name: "Master Node Setup"
+            role: kubernetes-master-setup
+- hosts: kk_slave
+  become: yes
+  become_method: sudo
+  become_user: root
+  roles:
+          - name: "Slave Node Setup"
+            role: kubernetes-master-setup
