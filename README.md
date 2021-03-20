@@ -1,4 +1,4 @@
-# Multi-node Cluster Setup Role
+# Kubernetes Multi-node Cluster Setup Role
 
 Hi Guys
 </br>
@@ -13,7 +13,7 @@ I have created this repository to setup kubernetes cluster over aws in a few min
 Following parameters are there : 
 
 | Sr.|  PARAMETER | NAME  | USE  | CHANGE PARAMETER AT LOCATION |
-| ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | 1.|** i_name** (String) ( Recommended change ) | Instance Name  |  It is name tag for instance. | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
 | 2.|   **key** (String) | Aws key name  | It is the aws key which in ec2 key section. NOTE:  write keyname only (not  Key extt. like: newkey.pem or newkey.ppk )   | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
 | 3.|  ** i_type **(String) | Instance type | Aws Instance type like: t2.micro , t2.medium etc.    | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
@@ -28,6 +28,9 @@ Following parameters are there :
 |12. |   **ssh_key_full_path** (String) | Aws key path (Local path,)  | It denotes full key path, where key is there, so that it can write it in inventory as automatic entry..  | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
 |13. |   <b>access_pass </b>  (String) ( Required )| AWS IAM user Access Key  | It denotes aws access key. | Update it in 'aws_instance_launcher' role defaults/main.yml file or 'aws_instance_launcher' role vars/main.yml file or   in setup.yml file |
 |14. |   <b>secret_pass</b>  (String) ( Required ) | AWS IAM user Secret key  | It denotes aws secret key. | Update it in 'aws_instance_launcher' role defaults/main.yml file or 'aws_instance_launcher' role vars/main.yml file or   in setup.yml file. |
+
+
+
 
 Use there parameters for better use.
 # Ansible-galaxy
@@ -95,4 +98,4 @@ Github : https://github.com/kush95300 </b>
 <br>
 
 
->> NOTE :   This Repository contains three roles.epository contains three roles.
+>> NOTE :   This Repository contains three roles.
