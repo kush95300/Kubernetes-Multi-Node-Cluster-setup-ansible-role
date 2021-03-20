@@ -36,16 +36,16 @@ Use there parameters for better use.
 # Ansible-galaxy
 <b>Roles available at :
 <b>
-- Aws_instance_launcher : link 
-- Kubernetes_master_setup : link 
-- Kubernetes_slave_setup : link </b>
+- Aws_instance_launcher : https://galaxy.ansible.com/kush95300/aws_instance_launcher 
+- Kubernetes_master_setup : https://galaxy.ansible.com/kush95300/kubernetes_master_setup
+- Kubernetes_slave_setup : https://galaxy.ansible.com/kush95300/kubernetes_slave_setup </b>
 
 ##Download Role  using command :
 | **ROLES**  | **COMMAND**   |
 | ------------ | ------------ |
-| Aws_instance_launcher  | xxx  |
-| Kubernetes_master_setup  | xxx  |
-|  Kubernetes_slave_setup | xxx  |
+| Aws_instance_launcher  | ansible-galaxy install kush95300.aws_instance_launcher  |
+| Kubernetes_master_setup  | ansible-galaxy install kush95300.kubernetes_master_setup  |
+|  Kubernetes_slave_setup | ansible-galaxy install kush95300.kubernetes_slave_setup  |
 
 
 # Examples
@@ -88,7 +88,7 @@ Free to use.
 # Support & Contact
 <b>
 
-Email: Kaushal95300@gmail.com
+Email: kaushal95300@gmail.com
 
 Linkedin : https://www.linkedin.com/in/kaushal-soni-988650146/
 
