@@ -40,7 +40,7 @@ Use there parameters for better use.
 - Kubernetes_master_setup : https://galaxy.ansible.com/kush95300/kubernetes_master_setup
 - Kubernetes_slave_setup : https://galaxy.ansible.com/kush95300/kubernetes_slave_setup </b>
 
-##Download Role  using command :
+## Download Role  using command :
 | **ROLES**  | **COMMAND**   |
 | ------------ | ------------ |
 | Aws_instance_launcher  | ansible-galaxy install kush95300.aws_instance_launcher  |
