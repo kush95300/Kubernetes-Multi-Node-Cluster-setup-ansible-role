@@ -1,7 +1,7 @@
 aws_instance_Launcher
 =====================
 
-This role Create a AWS instance and after craetion automatically write AWS ec2 instance to inventory file as group name grp_name and each entry of group conatin IP address, ansible_user, ansible_key_file and ansible_connection. This all done quickly.
+This role Create a AWS instance and after creating it  automatically write AWS ec2 instance entry  to inventory file as group name grp_name and each entry of group conatin IP address, ansible_user, ansible_key_file and ansible_connection. This all done quickly.
 
 Hense, function of Role is :
 
@@ -20,7 +20,7 @@ Following parameters are there :
 | Sr.|  PARAMETER | NAME  | USE  | CHANGE PARAMETER AT LOCATION |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 1.| **i_name**   (String) ( Recommended change ) | Instance Name  |  It is name tag for instance. | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
-| 2.|   **key**   (String) | Aws key name  | It is the aws key which in ec2 key section. NOTE:  write keyname only (not  Key extt. like: newkey.pem or newkey.ppk )   | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
+| 2.|   **key**   (String) | Aws key name  | It is the aws key which in ec2 key section. NOTE:  write keyname only (not  Key extention. like: newkey.pem or newkey.ppk )   | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
 | 3.|  **i_type**    (String) | Instance type | Aws Instance type like: t2.micro , t2.medium etc.    | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
 | 4. |   **img**    (String) | Aws AMI ID  | It denotes AMI iD. AMI ID is the image through which instance will launch. e.g. - ami-xxxxxxxxx  | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
 | 5. |   **subnet**    (String) | Aws VPC Subnet ID  | It denotes VPC subnet ID. e.g. - subnet-xxxxxxxxx)   | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
@@ -109,7 +109,7 @@ Author Information
 
 Email: Kaushal95300@gmail.com
 
-Linkedin : https://www.linkedin.com/in/kaushal-soni-988650146/
+Linkedin : https://www.linkedin.com/in/sonikaushal
 
 Github : https://github.com/kush95300 </b>
 
