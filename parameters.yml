@@ -34,20 +34,5 @@ cidr: 10.240.0.0
 
 
 
-# Mysql Parameters
-#
-mysql_pod_name: "mypod"
-db_root_pass: "Root"
-db_user: "kush"
-db_pass: "any"
-db_name: "wp"
-
-
-# Wordpress Parameters
-#
-wp_pod_name: "mywp"
-nodePort: "31001"       # Must be in range 30000-32500
-
-
 # Other Parameters
 clear_inventory: "yes"

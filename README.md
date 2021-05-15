@@ -28,7 +28,8 @@ Following parameters are there :
 |12. |   **ssh_key_full_path**    (String) | Aws key path (Local path,)  | It denotes full key path, where key is there, so that it can write it in inventory as automatic entry..  | Update it in 'aws_instance_launcher' role defaults dir or   in setup.yml file. |
 |13. |   <b>access_pass </b>     (String) ( Required )| AWS IAM user Access Key  | It denotes aws access key. | Update it in 'aws_instance_launcher' role defaults/main.yml file or 'aws_instance_launcher' role vars/main.yml file or   in setup.yml file |
 |14. |   <b>secret_pass</b>     (String) ( Required ) | AWS IAM user Secret key  | It denotes aws secret key. | Update it in 'aws_instance_launcher' role defaults/main.yml file or 'aws_instance_launcher' role vars/main.yml file or   in setup.yml file. |
-
+|15. |   <b>cidr</b>     (String) ( Required ) | Kubernetes Cluster Network Range  | It denotes Network starting Ip. eg. : 10.240.0.0 | Update it in 'kubernetes-master-node-setup' role defaults/main.yml file or parameters.yml file or   in setup.yml file. |
+|16. |   <b>clean_inventory</b>     (String) ( Required ) | Inventory Clean Option  | It denotes whether you want to clear Inventory or not. Default value: yes. ( yes/no available). | Update it in parameter.yml file or   in setup.yml file. |
 
 
 
