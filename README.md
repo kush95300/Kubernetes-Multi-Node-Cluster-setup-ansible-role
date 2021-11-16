@@ -82,9 +82,11 @@ Use there parameters for better use.
 
 ```
 
-# License
+# License & COPYRIGHT
 
-Free to use.
+ © Kaushal Soni
+ 
+ Licence Under the [MIT Licence](LICENSE)
 
 # Support & Contact
 <b>
